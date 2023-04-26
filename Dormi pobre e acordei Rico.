@@ -1,0 +1,13 @@
+echo "#Dormi-pobre-e-acordei-Rico." >> README.md: Esse comando adiciona o título do seu projeto ("Dormi-pobre-e-acordei-Rico") ao arquivo README.md usando o comando echo e redirecionando a saída para o arquivo com o operador >>.
+
+git init: Esse comando inicializa um novo repositório Git na pasta atual.
+
+git add README.md: Esse comando adiciona o arquivo README.md à área de preparação (staging area) do Git para que ele possa ser incluído no próximo commit.
+
+git commit -m "first commit": Esse comando cria um novo commit com as mudanças que você adicionou à área de preparação. O parâmetro -m é usado para adicionar uma mensagem de commit, que é uma breve descrição das mudanças que você fez.
+
+git branch -M main: Esse comando renomeia o nome da branch padrão de "master" para "main".
+
+git remote add origin https://github.com/Truknub/Dormi-pobre-e-acordei-Rico..git: Esse comando adiciona um novo repositório remoto chamado "origin" com a URL do seu repositório no Github.
+
+git push -u origin main: Esse comando envia o seu commit para o repositório remoto "origin" na branch "main" e define a branch "main" como a branch padrão de rastreamento.
